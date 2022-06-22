@@ -1,0 +1,87 @@
+.PrivacyPolicy-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+.PrivacyPolicy-Banner {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.PrivacyPolicy-Banner-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+  justify-content: flex-end;
+}
+.PrivacyPolicy-Banner-content h1{
+  font-size: 45px;
+  font-weight: 600;
+}
+.PrivacyPolicy-Banner-content p {
+  width: 90%;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+.PrivacyPolicy-Banner-Image {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.PrivacyPolicy-Banner-Image img {
+  width: 100%;
+}
+.PrivacyPolicy-Dropdown-Col {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.Privacy-Dropdown-Header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Privacy-Dropdown-Header h1 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #c53f3f;
+}
+.PrivacyPolicy-Dropdowns {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+@media only screen and (max-width: 450px) {
+  .PrivacyPolicy-Banner {
+    width: 95%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .PrivacyPolicy-Banner-Image {
+    width: 100%;
+  }
+  .PrivacyPolicy-Banner-content {
+    width: 100%;
+    gap: 1rem;
+  }
+  .PrivacyPolicy-Banner-content p{
+    width: 100%;
+  }
+  .PrivacyPolicy-Dropdown-Col{
+    width: 95%;
+  }
+}

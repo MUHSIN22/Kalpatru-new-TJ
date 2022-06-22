@@ -1,0 +1,221 @@
+.AboutUs-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.AboutUs-Banner {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.AboutUs-Banner-Content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.AboutUs-Banner-Content h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.AboutUs-Banner-Content p {
+  width: 90%;
+  font-size: 40px;
+  font-weight: 500;
+  word-wrap: break-word;
+  text-align: left;
+  margin-left: 7rem;
+}
+.AboutUs-Banner-Image {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AboutUs-Banner-Image img {
+  width: 80%;
+}
+.AboutUs-Content-row {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.AboutUs-Logo {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.AboutUs-Logo img {
+  width: 70%;
+}
+.AboutUs-Content {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  padding: 3rem;
+  text-align: justify;
+}
+.AboutUs-Content p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.Meet-The-Team-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.Meet-The-Team-Container h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.Team-Grid-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff6ea;
+  padding: 2rem;
+}
+.Team-Cards-Grid {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.Team-Card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.Team-Card img {
+  width: 50%;
+}
+.Achievements-Container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.Achievements-Container h1{
+  font-size: 45px;
+  font-weight: 600;
+}
+.Container-Row {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Container-Col {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.Container-Col img {
+  width: 30%;
+}
+.Container-Col p {
+  width: 70%;
+  text-align: left;
+  color: #8989a2;
+}
+.Container-Images {
+  width: 50%;
+}
+.Container-Images img {
+  width: 50%;
+}
+@media only screen and (max-width: 1030px) {
+  .AboutUs-Logo img {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .AboutUs-Banner {
+    width: 95%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .AboutUs-Banner-Image {
+    width: 100%;
+  }
+  .AboutUs-Banner-Image img {
+    width: 100%;
+  }
+  .AboutUs-Banner-Content {
+    width: 100%;
+  }
+  .AboutUs-Content-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .AboutUs-Logo {
+    width: 100%;
+  }
+  .AboutUs-Content {
+    width: 95%;
+    padding: 1rem;
+  }
+  .Team-Cards-Grid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Team-Card {
+    width: 95%;
+  }
+  .Container-Row {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Container-Col {
+    width: 100%;
+  }
+  .Container-Col p {
+    width: 95%;
+  }
+  .Container-Images {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Container-Images img {
+    width: 90%;
+  }
+}

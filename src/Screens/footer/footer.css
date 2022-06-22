@@ -1,0 +1,118 @@
+.Footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+}
+
+.Footer .socialmedia-icon {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.Footer .socialmedia-icon svg {
+    color: #FFFFFF;
+    align-items: center;
+    width: fit-content;
+    transform: scale(1.8);
+}
+.Footer .footer-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.Footer .section-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+.Footer .section-2 .section-2-content {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.Footer .section-2 .section-2-image {
+    width: 10%;
+    padding: 1rem;
+}
+
+.Footer .section-2 .section-2-image img {
+    width: 100%;
+}
+
+.Footer .section-2 .section-2-content a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #FFFFFF;
+}
+
+.Footer .section-2 .section-2-content a::after {
+    content: "|";
+    margin-left: 0.8rem;
+}
+
+.Footer .section-3 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 1.3rem;
+    justify-content: flex-start;
+}
+
+.Footer .section-4 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    justify-content: flex-start;
+}
+.Footer .section-4 a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.Footer .section-5 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    justify-content: flex-start;
+}
+.Footer .section-5 a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.Footer .section-6{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    justify-content: flex-start;
+}
+.Footer .section-6 a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
